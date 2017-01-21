@@ -8,7 +8,7 @@
       maxIdle="2"
       maxWaitMillis="5000"
       driverClassName="org.hsqldb.jdbc.JDBCDriver"
-      url="jdbc:hsqldb:hsql://localhost/testproject"
+      url="jdbc:hsqldb:hsql://localhost/TestBasicCubaApp"
       username="sa"
       password=""/>
 
