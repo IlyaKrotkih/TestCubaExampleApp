@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.ocpsoft.prettytime:prettytime-nlp:3.2.5.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.ocpsoft.prettytime/prettytime-nlp/3.2.5.Final/2f782fc34ada2305ff318c55f2027ab7430233bf/prettytime-nlp-3.2.5.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.ocpsoft.prettytime/prettytime-nlp/3.2.5.Final/3e92e5606d9b98e14d9dc5f5c29e9a6595d15d1c/prettytime-nlp-3.2.5.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
