@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thirdparty:poi:3.12.cuba.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/poi/3.12.cuba.1/eba6d9b0188aaedfff7db47a044c23ed800babb3/poi-3.12.cuba.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/poi/3.12.cuba.1/fcda79ec6572c4958d4f056d5809e72abcde8a21/poi-3.12.cuba.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
