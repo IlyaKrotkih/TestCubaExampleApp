@@ -30,7 +30,7 @@ order by e.date]]>
                 <field id="email"/>
             </column>
         </fieldGroup>
-        <label value="msg://order"/>
+        <label value="msg://orders"/>
         <table height="200px"
                width="100%">
             <columns>
