@@ -7,3 +7,8 @@ build/*
 modules/*/build/*
 out
 test-run
+/.idea/modules/
+/.idea/modules.xml
+/.idea/misc.xml
+/.idea/workspace.xml
+/.idea/gradle.xml
