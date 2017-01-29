@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <!-- Customer screens -->
     <screen id="testproject$Customer.browse"
             template="com/company/testproject/gui/customer/customer-browse.xml"/>
+    <screen id="testproject$Customer.edit"
+            template="com/company/testproject/gui/customer/customer-edit.xml"/>
+    <!-- Order screens -->
     <screen id="testproject$Order.browse"
             template="com/company/testproject/gui/order/order-browse.xml"/>
     <screen id="testproject$Order.edit"
             template="com/company/testproject/gui/order/order-edit.xml"/>
-    <screen id="testproject$Customer.edit"
-            template="com/company/testproject/gui/customer/customer-edit.xml"/>
+    <!-- Nomenclature screens -->
     <screen id="testproject$Nomenclature.browse"
             template="/com/company/testproject/gui/nomenclature/browse/nomenclature-browse.xml"/>
 </screen-config>
