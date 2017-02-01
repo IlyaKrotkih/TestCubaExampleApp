@@ -6,7 +6,9 @@
         <property name="customer"
                   view="_minimal"/>
     </view>
+    <!--
     <view entity="testproject$Nomenclature" name="nomenclature.browse">
         <property name="name"/>
     </view>
+    -->
 </views>
