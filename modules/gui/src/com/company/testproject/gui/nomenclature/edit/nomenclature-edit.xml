@@ -1,0 +1,23 @@
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        class="com.company.testproject.gui.nomenclature.edit.NomenclatureEditor"
+        messagesPack="com.company.testproject"
+        datasource="nomenclatureDs"
+        caption="msg://nomenclature.editor.caption">
+    <dsContext>
+        <datasource
+                id="nomenclatureDs"
+                class="com.company.testproject.entity.Nomenclature"
+                view="nomenclature.edit">
+        </datasource>
+
+    </dsContext>
+    <layout expand="space" spacing="true">
+        <fieldGroup datasource="nomenclatureDs" width="500px" border="visible">
+            <column width="100%">
+                <field id="name"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions" screen="editWindowActions"/>
+        <hbox id="space"></hbox>
+    </layout>
+</window>

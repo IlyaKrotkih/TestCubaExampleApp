@@ -13,4 +13,6 @@
     <!-- Nomenclature screens -->
     <screen id="testproject$Nomenclature.browse"
             template="/com/company/testproject/gui/nomenclature/browse/nomenclature-browse.xml"/>
+    <screen id="testproject$Nomenclature.edit"
+            template="/com/company/testproject/gui/nomenclature/edit/nomenclature-edit.xml"/>
 </screen-config>
