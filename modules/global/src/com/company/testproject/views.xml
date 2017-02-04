@@ -6,7 +6,8 @@
         <property name="customer"
                   view="_minimal"/>
     </view>
-    <view entity="testproject$Nomenclature" name="nomenclature.browse">
+    <view class="com.company.testproject.entity.Nomenclature"
+          name="nomenclature.browse">
         <property name="name"/>
     </view>
 </views>

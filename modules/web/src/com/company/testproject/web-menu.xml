@@ -4,5 +4,6 @@
           insertBefore="administration">
         <item id="testproject$Customer.browse"/>
         <item id="testproject$Order.browse"/>
+        <item id="testproject$Nomenclature.browse"/>
     </menu>
 </menu-config>
