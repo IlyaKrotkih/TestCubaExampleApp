@@ -7,9 +7,5 @@ build/*
 modules/*/build/*
 out
 test-run
-/.idea/modules/
-/.idea/compiler.xml
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/misc.xml
-/.idea/gradle.xml
+/.idea/
+!/.idea/runConfigurations/
