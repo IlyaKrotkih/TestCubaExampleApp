@@ -2,6 +2,8 @@ package com.company.testproject.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
+
+import com.haulmont.cuba.core.entity.annotation.OnDelete;
 import com.haulmont.cuba.core.entity.annotation.OnDeleteInverse;
 import com.haulmont.cuba.core.global.DeletePolicy;
 import java.math.BigDecimal;
@@ -24,6 +26,11 @@ public class Order extends StandardEntity {
     @JoinColumn(name = "CUSTOMER_ID")
     protected Customer customer;
 
+    @OnDeleteInverse(DeletePolicy.DENY)
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "NOMENCLATURE_ID")
+    protected Nomenclature nomenclature;
+
     @Temporal(TemporalType.DATE)
     @Column(name = "DATE_", nullable = false)
     protected Date date;
@@ -38,6 +45,10 @@ public class Order extends StandardEntity {
     public Customer getCustomer() {
         return customer;
     }
+
+    public void setNomenclature(Nomenclature nomenclature) { this.nomenclature = nomenclature; }
+
+    public Nomenclature getNomenclature() { return nomenclature; }
 
     public void setDate(Date date) {
         this.date = date;
@@ -54,6 +65,4 @@ public class Order extends StandardEntity {
     public BigDecimal getAmount() {
         return amount;
     }
-
-
 }
