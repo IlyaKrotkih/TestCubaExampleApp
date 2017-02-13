@@ -9,6 +9,7 @@ create table TESTPROJECT_ORDER (
     DELETED_BY varchar(50),
     --
     CUSTOMER_ID varchar(36),
+    NOMENCLATURE_ID uuid,
     DATE_ date not null,
     AMOUNT decimal(19, 2),
     --
