@@ -32,6 +32,7 @@
             </actions>
             <columns>
                 <column id="customer"/>
+                <column id="nomenclature"/>
                 <column id="date"/>
                 <column id="amount"/>
             </columns>

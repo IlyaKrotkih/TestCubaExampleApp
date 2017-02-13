@@ -18,6 +18,7 @@
                     datasource="orderDs">
             <column width="250px">
                 <field id="customer"/>
+                <field id="nomenclature"/>
                 <field id="date"/>
                 <field id="amount"/>
             </column>
